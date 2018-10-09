@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Open Sans Condensed';
+	font-size: 20px; 
+	color: #222222;
+	line-height: 3em;
+	text-align: center;
+	margin: 2em, auto;
+}
+
+header {
+	background-color: #F4538F;
+	padding: 1.5em; 
+}
+
+h1 {
+	font-family: 'Euphoria Script', cursive;
+	letter-spacing: 0.25em;
+	color: #ffffff;
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.25em;
+	font-family: Lora;
+	margin: auto;
+	width: 30em;
+	line-height: 2em;
+}
+
+a {
+	color: #F4538F;
+	text-decoration: none;
+}
+
+nav a {
+	color: #CCCCCC;
+	font-style: italic;
+	font-weight: bold;
+	margin-right: 1em;
+	padding: 2em;
+
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	/*font-family: 'Open Sans Condensed';*/
+	background-color: #7DD8CF;
+	padding: 1em;
+	margin-top: 1em
+}
+
+h2, h3 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+section {
+	margin-top: 2em;
+}
+
+ul {
+	font-family: Lora;
+	text-align: center;
+	list-style-type: none;
+	line-height: 2em;
+	font-size: 1.25em;
+	padding-bottom: 1.5em;
+}
+
+#slogan {
+	/*font-family: 'Euphoria Script', cursive;*/
+	font-size: 2em;
+	font-style: italic;
+	padding-top: 1em;
+}
+
+#carmen {
+	width: 20em;
+	padding-top: 1.5em;
+}
+
+#logo {
+	width: 15em;
+}
+
+.favorite {
+	width: 10em;
+	margin-right: 2em;
+	margin-top: 1em;
+}
