@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans Condensed';
+	font-size: 20px; 
+	color: #222222;
+	background-color: #FFE2B8;
+	line-height: 3em;
+	text-align: center;
+}
+
+header {
+	background-color: #FFED74;
+	/*background-color: #F4538F;*/
+	padding: 1em; 
+	border: 1px solid black;
+}
+
+a {
+	color: #F4538F;
+	text-decoration: none;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px solid black;
+	padding: 1em;
+	text-align: center;
+}
+
+nav a {
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+	margin-right: 2em;
+	margin-left: 2em;
+	/*display: block;*/
+	width: 240px;
+	/*float: left;*/
+}
+
+nav a:hover {
+	background-color: #7DD8CF;
+}
+
+h1 {
+	font-family: 'Euphoria Script', cursive;
+	letter-spacing: 0.25em;
+	color: black;
+	font-size: 3em;
+}
+
+main {
+	/*float: left;*/
+}
+
+h2, h3 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+section {
+	margin: 1em 0;
+	border: 1px solid black;
+	background-color: #E89C6C;
+	padding: 1em;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px solid black;
+	padding: 1em;
+	/*float: right;*/
+	/*width: 20em;*/
+}
+
+footer {
+	/*font-family: 'Open Sans Condensed';*/
+	clear: both;
+	border: 1px solid black;
+	background-color: #FF957E;
+	/*background-color: #7DD8CF;*/
+	padding: 1em;
+	margin-top: 1em
+}
+
+p {
+	font-size: 1.25em;
+	font-family: Lora;
+	margin: auto;
+	width: 30em;
+	line-height: 2em;
+}
+
+ul {
+	font-family: Lora;
+	text-align: center;
+	list-style-type: none;
+	line-height: 2em;
+	font-size: 1.25em;
+	padding-bottom: 1.5em;
+}
+
+img {
+	width: 100%;
+}
+
+#wrapper {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+#slogan {
+	/*font-family: 'Euphoria Script', cursive;*/
+	font-size: 2em;
+	font-style: italic;
+	padding-top: 1em;
+}
+
+#carmen {
+	width: 20em;
+	padding-top: 1.5em;
+}
+
+#logo {
+	width: 15em;
+}
+
+.favorite {
+	width: 10em;
+	margin-right: 2em;
+	margin-top: 1em;
+}
+
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
