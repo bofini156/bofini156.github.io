@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans Condensed';
+	font-size: 20px; 
+	color: #222222;
+	background-color: #FEE9C5;
+	line-height: 3em;
+	text-align: center;
+}
+
+header {
+	background-color: #7DD8CF;
+	padding: 1em; 
+	margin: 1em 0;
+}
+
+a {
+	color: #7DD8CF;
+	text-decoration: none;
+}
+
+nav {
+	padding: 0.25em;
+	text-align: center;
+	margin: 0 3.5em;
+}
+
+nav a:link {
+	color: #FEF7E4;
+	font-style: italic;
+	font-weight: bold;
+	display: block;
+	width: 18%;
+	float: left;
+	margin-top: 2em;
+	font-size: 1.5em;
+	transition: color ease-in-out .5s;
+}
+
+nav a:visited {
+	color: #FEF7E4;
+}
+
+nav a:hover {
+	background-color: #F4538F;
+}
+
+nav img:hover {
+	background-color: #F4538F;
+	transition: color ease-in-out .5s;
+}
+
+nav a:active {
+	color: black;
+}
+
+h1 {
+	font-family: 'Euphoria Script', cursive;
+	letter-spacing: 0.25em;
+	color: #FEF7E4;
+	font-size: 3em;
+}
+
+main {
+	float: right;
+	overflow: auto;
+	width: 63%
+}
+
+h2, h3 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+section {
+	margin-bottom: 1em;
+	background-color: #FDE0DA;
+	padding: 1em;
+	overflow: auto;
+}
+
+aside {
+	background-color: #BDE0C0;
+	padding: 1em;
+	float: none;
+	width: 32%;
+	margin-bottom: 1em;
+}
+
+footer {
+	clear: both;
+	background-color: #F4538F;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+p {
+	font-size: 1.25em;
+	font-family: Lora;
+	margin: auto;
+	line-height: 2em;
+}
+
+ul {
+	font-family: Lora;
+	text-align: center;
+	list-style-type: none;
+	line-height: 2em;
+	font-size: 1.25em;
+	padding-bottom: 1.5em;
+}
+
+img {
+	width: 100%;
+}
+
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+#sugarbunny {
+	float: none;
+	background: url(../images/31465_ultimate_bleuberry_muffins.jpg) no-repeat center center scroll;
+	background-size: cover;
+	font-size: 1.5em;
+	padding: 3em 2em;
+	margin-bottom: 1em;
+}
+
+#about_us {
+	text-align: center;
+	width: 34%
+}
+
+#recipes {
+	text-align: center;
+	font-size: 1em;
+	width: 100%;
+}
+
+#carmen {
+	width: 100%;
+	padding-top: 1em;
+}
+
+#services {
+	float: right;
+	width: 63%
+}
+
+#logo {
+	width: 26%;
+	padding: 0 2em;
+	display: block;
+	float: left;
+}
+
+.favorite {
+	float: left;
+	width: 35%;
+	margin: 1em 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.favoritetext {
+	width: 100%;
+	letter-spacing: 0.1em;
+	padding: 5em 0;
+	text-align: center;
+}
+
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
+
+@media only screen and (max-width: 1345px) {
+	h1 {
+		line-height: 1em;
+	}
+
+	.favorite {
+		float: none;
+		margin: 0.5em 0;
+	}
+
+	.favoritetext {
+		letter-spacing: 0.1em;
+		padding: 0 0 2em 0;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1110px) {
+	nav a:link {
+	margin-top: 1em;
+	}
+
+	#sugarbunny {
+	padding: 1em 0.5em;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	nav {
+		margin: 0 1em;
+	}
+
+	nav a:link {
+		margin-top: 1em;
+		font-size: 1.5em;
+	}
+
+	#logo {
+		width: 30%;
+		padding: 0 1em;
+		float: right;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	nav a:link {
+		float: none;
+		text-align: center;
+		margin: auto;
+	}
+
+	main {
+		float: none;
+		margin: auto;
+		width: 100%;
+	}
+
+	aside {
+		float: none;
+		margin: auto;
+		margin-top: 1em;
+	}
+
+	#about_us {
+		width: 100%
+	}
+
+	#logo {
+		display: none;
+	}
+
+	#services {
+		float: none;
+		margin: auto;
+		width: 100%;
+	}
+
+	#sugarbunny {
+	font-size: 1em;
+	}
+}
